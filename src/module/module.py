@@ -34,7 +34,7 @@ def module_main(received_data: any) -> str:
         resp = requests.get(URL + received_data[MESSAGE_LABEL]).json()
 
         if not resp['ok']:
-            return f"Error when sending data to Discord channel. Server response: {resp}"
+            return f"Error when sending data to Telegram bot. Server response: {resp}"
 
         return None
 
