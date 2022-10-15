@@ -7,6 +7,9 @@
 | DockerHub | [weevenetwork/telegram](https://hub.docker.com/r/weevenetwork/telegram) |
 | authors        | Jakub Grzelak                    |
 
+***
+## Table of Content
+
 - [Telegram](#telegram)
   - [Description](#description)
   - [Creating Telegram Bot](#creating-telegram-bot)
@@ -16,6 +19,7 @@
   - [Dependencies](#dependencies)
   - [Input](#input)
   - [Output](#output)
+***
 
 ## Description
 
