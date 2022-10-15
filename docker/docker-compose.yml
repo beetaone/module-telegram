@@ -10,7 +10,7 @@ services:
       INGRESS_HOST: "0.0.0.0"
       INGRESS_PORT: "80"
       TOKEN: "TELEGRAM_TOKEN"
-      CHAT_ID: "CHAT_ID"
+      CHAT_ID: "0123456789"
       MESSAGE_LABEL: "alertMessage"
     ports:
       - 80:80
