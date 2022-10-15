@@ -4,7 +4,7 @@
 | -------------- | ------------------------------------- |
 | Name           | Telegram                           |
 | Version        | v1.0.0                                |
-| DockerHub | [weevenetwork/telegram](https://hub.docker.com/r/weevenetwork/telegram) |
+| DockerHub  | [weevenetwork/telegram](https://hub.docker.com/r/weevenetwork/telegram) |
 | authors        | Jakub Grzelak                    |
 
 ***
