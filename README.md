@@ -35,7 +35,7 @@ Getting your Telegram Bot **TOKEN**:
 
 Getting your Telegram Bot **CHAT ID**:
 1. Open Telegram via web (https://web.telegram.org/) on your Desktop Browser and log in. 
-2. Select the chat you want to send the message to. This can be the indivisual chat with the bot or a group to which you added the bot. 
+2. Select the chat you want to send the message to. This can be the individual chat with the bot or a group to which you added the bot. 
 3. Finally, check the URL in the address bar and copy the Chat ID at the very end of the URL after the "#". 
     Example: https://web.telegram.org/z/#1234567890 while **1234567890** is your Chat ID _(Group Chat IDs sometimes start with a "-". Also copy the "-" since it belongs to the Chat ID)_
     
