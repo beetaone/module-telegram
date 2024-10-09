@@ -7,10 +7,10 @@ categories:                             # Array of category that will be used to
   - 'Alert'
 type: 'Output'      # Module type (Input, Processing, Output) that will be used to group the module in the UI.
 image:
-  name: 'weevenetwork/telegram'     # Image name from the docker registry.
+  name: 'beetaone/telegram'     # Image name from the docker registry.
   tag: 'v1.0.0'                               # Image tag from the docker registry.
-  homepage: 'https://hub.docker.com/r/weevenetwork/telegram'      # Image homepage from the docker registry.
-repository: 'https://github.com/weeve-modules/telegram'     # Repository URL to source code.
+  homepage: 'https://hub.docker.com/r/beetaone/telegram'      # Image homepage from the docker registry.
+repository: 'https://github.com/beetaone/module-telegram'     # Repository URL to source code.
 envs:                                   # Array of environment variables that will be used to configure the module. Also used to show related fields on the UI.
   - name: Token                   # name of the field to be displayed on the UI.
     key: TOKEN                # key to set in the environment variables.
@@ -44,4 +44,4 @@ tags:                                   # Array of tags.
   - 'Output'
   - 'Telegram'
   - 'Bot'
-icon: 'https://icons-020-demo.s3.eu-central-1.amazonaws.com/mi_telegram_output.png'    # Icon URL that will be displayed in the UI.
+icon: 'https://icons-020-demo.s3.eu-central-1.amazonaws.com/mi_telegram_output.png'    # Icon URL that will be displayed in the UI.he UI.

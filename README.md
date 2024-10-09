@@ -4,7 +4,7 @@
 | -------------- | ------------------------------------- |
 | Name           | Telegram                           |
 | Version        | v1.0.0                                |
-| DockerHub  | [weevenetwork/telegram](https://hub.docker.com/r/weevenetwork/telegram) |
+| DockerHub  | [beetaone/telegram](https://hub.docker.com/r/beetaone/telegram) |
 | authors        | Jakub Grzelak                    |
 
 ***
@@ -15,7 +15,7 @@
   - [Creating Telegram Bot](#creating-telegram-bot)
   - [Environment Variables](#environment-variables)
     - [Module Specific](#module-specific)
-    - [Set by the weeve Agent on the edge-node](#set-by-the-weeve-agent-on-the-edge-node)
+    - [Set by the beetaone Agent on the edge-node](#set-by-the-beetaone-agent-on-the-edge-node)
   - [Dependencies](#dependencies)
   - [Input](#input)
   - [Output](#output)
@@ -23,7 +23,7 @@
 
 ## Description
 
-This modules sends messages and notifications to a selected Telegram chat. It requires setting up Telegram Bot. Additionally, we recommend running this module together with our [Message Composer](https://github.com/weeve-modules/message-composer) module that helps in writing alerts within weeve Edge Application.
+This modules sends messages and notifications to a selected Telegram chat. It requires setting up Telegram Bot. Additionally, we recommend running this module together with our [Message Composer](https://github.com/beetaone/module-message-composer) module that helps in writing alerts within beetaone Edge Application.
 
 ## Creating Telegram Bot
 
@@ -56,7 +56,7 @@ print(requests.get(url).json())
 
 ### Module Specific
 
-The following module configurations can be provided in a data service designer section on weeve platform:
+The following module configurations can be provided in a data service designer section on beetaone platform:
 
 | Name                 | Environment Variables     | type     | Description                                              |
 | -------------------- | ------------------------- | -------- | -------------------------------------------------------- |
@@ -65,9 +65,9 @@ The following module configurations can be provided in a data service designer s
 | Message Label    | MESSAGE_LABEL         | string  | Label in incoming data that holds the message to be sent.            |
 
 
-### Set by the weeve Agent on the edge-node
+### Set by the beetaone Agent on the edge-node
 
-Other features required for establishing the inter-container communication between modules in a data service are set by weeve agent.
+Other features required for establishing the inter-container communication between modules in a data service are set by beetaone agent.
 
 | Environment Variables | type   | Description                                    |
 | --------------------- | ------ | ---------------------------------------------- |
